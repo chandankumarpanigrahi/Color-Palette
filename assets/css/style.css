@@ -141,8 +141,9 @@ body {
 
 .all_brands{
     flex-wrap: nowrap !important;
-    width: fit-content !important;
+    width: 100% !important;
     overflow-x: scroll !important;
+    margin-left: 0 !important;
     /* position: fixed;
     top: 10px;
     left: 180px;
