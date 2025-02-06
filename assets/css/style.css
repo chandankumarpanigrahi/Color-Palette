@@ -169,6 +169,11 @@ body {
     padding: 2px 8px;
 }
 
+.downloadBtn:hover{
+    color: #fff;
+    background-color: #673AB7;
+}
+
 .footer{
     margin-bottom: 1rem;
     background-color: #ffffff1f;
