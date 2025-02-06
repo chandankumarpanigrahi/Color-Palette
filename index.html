@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Color Palette</title>
+    <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
     <!-- UIkit CSS -->
     <link rel="stylesheet" href="./assets/plugin/ui kit/uikit.min.css" />
     <!-- UIkit JS -->
@@ -26,65 +27,24 @@
 </head>
 
 <body>
-    <!-- <div class="uk-background-cover uk-preserve-color uk-inverse-light">
+    <div class="uk-background-cover uk-preserve-color uk-inverse-light">
         <div uk-sticky="start: 170; animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent; end: ! *; offset: 0">
             <nav class="uk-navbar-container" uk-inverse="sel-active: .uk-navbar-transparent">
                 <div class="uk-container">
                     <div
                         uk-navbar="dropbar: true; dropbar-transparent-mode: remove; dropbar-anchor: !.uk-navbar-container; target-y: !.uk-navbar-container">
-                        <div class="uk-navbar-left">
+                        <div class="uk-navbar-left d-block w-100">
                             <ul class="uk-navbar-nav">
-                                <li class="uk-active"><a href="#">Active</a></li>
-                                <li>
-                                    <a href="#">Parent</a>
-                                    <div class="uk-navbar-dropdown">
-                                        <ul class="uk-nav uk-navbar-dropdown-nav">
-                                            <li class="uk-active"><a href="#">Active</a></li>
-                                            <li><a href="#">Item</a></li>
-                                            <li class="uk-nav-header">Header</li>
-                                            <li><a href="#">Item</a></li>
-                                            <li><a href="#">Item</a></li>
-                                            <li class="uk-nav-divider"></li>
-                                            <li><a href="#">Item</a></li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li>
-                                    <a href="#">Parent</a>
-                                    <div class="uk-navbar-dropdown uk-navbar-dropdown-width-2">
-                                        <div class="uk-drop-grid uk-child-width-1-2" uk-grid>
-                                            <div>
-                                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                    <li class="uk-active"><a href="#">Active</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li class="uk-nav-header">Header</li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li class="uk-nav-divider"></li>
-                                                    <li><a href="#">Item</a></li>
-                                                </ul>
-                                            </div>
-                                            <div>
-                                                <ul class="uk-nav uk-navbar-dropdown-nav">
-                                                    <li class="uk-active"><a href="#">Active</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li class="uk-nav-header">Header</li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li><a href="#">Item</a></li>
-                                                    <li class="uk-nav-divider"></li>
-                                                    <li><a href="#">Item</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
+                                <a href="./index.html" class="nav_logo me-auto"><img src="./assets/images/logo.png" alt="This is the website logo" style="height: 40px;"></a>
+                                <li class="uk-active"><a href="./index.html">All Colors</a></li>
+                                <li><a href="./contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
         </div>
-    </div> -->
+    </div>
     <div class="work_area">
         <div>
             <div class="uk-container my-4">
@@ -100,7 +60,7 @@
                             </ul>
                             <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m" uk-grid>
                                 <li data-color="shoolin" class="w-100">
-                                    <div class="color_card">
+                                    <div class="color_card" id="shoolin_color">
                                         <div class="header">
                                             <img src="./assets/images/logos/shoolin.png" alt="This is the brand logo of this brand" class="brand_image">
                                             <h6>Shoolin Innovations Ltd</h6>
