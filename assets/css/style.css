@@ -224,3 +224,14 @@ body {
     border-radius: 4px;
     margin-bottom: 12px;
 }
+
+.brand_color{
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.brand_color .brand_name{
+    position: absolute;
+    top: 86px;
+    background-color: #0000 !important;
+}
